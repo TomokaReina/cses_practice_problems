@@ -11,7 +11,7 @@ int main(){
 	for(int i=1; i<=n; ++i){
 		factorial*=i;
 	}
-	while(factorial%10){
+	while(!factorial%10){
 		factorial/=(ll)10;
 		++t;
 	}
